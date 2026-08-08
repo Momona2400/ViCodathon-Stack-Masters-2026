@@ -8,7 +8,7 @@ The redesign keeps students focused on consistency while encouraging them to bui
 
 ## 🌐 Live Demo
 
-**Live Website:** https://your-live-link.vercel.app
+**Live Website:** https://vicodathonstackmasters2026.vercel.app/
 
 ---
 
