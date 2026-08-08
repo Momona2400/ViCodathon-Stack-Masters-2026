@@ -162,4 +162,4 @@ Every screen was designed to help students stay motivated while gradually buildi
 
 ---
 
-## Thank You ❤️
+## Thank You 
