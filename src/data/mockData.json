@@ -1,0 +1,130 @@
+{
+  "student": {
+    "id": "std_001",
+    "name": "Alex Rivera",
+    "email": "alex.rivera@abtalks.dev",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80",
+    "track": "Full-Stack Web Development",
+    "currentDay": 12,
+    "totalDays": 60,
+    "streak": 12,
+    "longestStreak": 14,
+    "missedYesterday": false,
+    "completedDays": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "submittedProofs": {
+      "11": {
+        "github": "https://github.com/alexrivera/abtalks-60days/commit/d7a12bc",
+        "linkedin": "https://linkedin.com/posts/alexrivera-day11-challenge",
+        "submittedAt": "2026-08-06T20:15:00Z"
+      }
+    }
+  },
+  "day12Task": {
+    "dayNumber": 12,
+    "title": "Build a Responsive Navigation Bar & Mobile Drawer",
+    "category": "Frontend Architecture",
+    "difficulty": "Intermediate",
+    "estimatedMinutes": 45,
+    "deadlineHoursRemaining": 6,
+    "description": "Day 12 of the ABTalks 60-Day Challenge focuses on mastering mobile-first UI components. Your objective is to design and implement a fluid navigation header with active state routing, a glassmorphism blur effect, and a smooth responsive drawer for small viewports (390px).",
+    "learningObjectives": [
+      "Implement fixed/sticky positioning with backdrop-blur",
+      "Ensure touch targets are at least 44px for mobile devices",
+      "Add interactive state transitions using Tailwind CSS",
+      "Enforce smooth page route transitions"
+    ],
+    "submissionRequirements": [
+      "Public GitHub repository commit link displaying your component code",
+      "LinkedIn post summary with hashtag #ABTalks60Days #BuildInPublic"
+    ],
+    "resources": [
+      {
+        "title": "Tailwind CSS Layout & Backdrop Filter Docs",
+        "url": "https://tailwindcss.com/docs/backdrop-filter"
+      },
+      {
+        "title": "Mobile Usability & Touch Target Guidelines",
+        "url": "https://web.dev/accessible-tap-targets/"
+      }
+    ]
+  },
+  "achievements": [
+    {
+      "id": "ach_01",
+      "title": "Ignition Key",
+      "description": "Completed Day 1 of the 60-Day Challenge and posted initial commit.",
+      "icon": "Zap",
+      "unlocked": true,
+      "unlockedAt": "2026-07-27",
+      "tier": "bronze"
+    },
+    {
+      "id": "ach_02",
+      "title": "Week 1 Survivor",
+      "description": "Maintained a perfect 7-day coding streak without missing a deadline.",
+      "icon": "Flame",
+      "unlocked": true,
+      "unlockedAt": "2026-08-02",
+      "tier": "silver"
+    },
+    {
+      "id": "ach_03",
+      "title": "Git Committer",
+      "description": "Submitted 10 verified GitHub commits to the community ledger.",
+      "icon": "GitCommit",
+      "unlocked": true,
+      "unlockedAt": "2026-08-05",
+      "tier": "silver"
+    },
+    {
+      "id": "ach_04",
+      "title": "Halfway Hero",
+      "description": "Reach Day 30 of the challenge with at least 80% completion.",
+      "icon": "Award",
+      "unlocked": false,
+      "tier": "gold"
+    },
+    {
+      "id": "ach_05",
+      "title": "60-Day Titan",
+      "description": "Graduate the ABTalks 60-Day Challenge and receive your verified certificate.",
+      "icon": "Trophy",
+      "unlocked": false,
+      "tier": "legendary"
+    }
+  ],
+  "personaPresets": {
+    "active": {
+      "name": "Alex Rivera (Active 12-Day Streak)",
+      "streak": 12,
+      "currentDay": 12,
+      "completedCount": 11,
+      "missedYesterday": false,
+      "emptyAchievements": false
+    },
+    "zeroStreak": {
+      "name": "Jordan Lee (Streak = 0 / Fresh Start)",
+      "streak": 0,
+      "currentDay": 1,
+      "completedCount": 0,
+      "missedYesterday": false,
+      "emptyAchievements": true
+    },
+    "missedDay": {
+      "name": "Sam Taylor (Missed Yesterday)",
+      "streak": 0,
+      "currentDay": 12,
+      "completedCount": 10,
+      "missedYesterday": true,
+      "emptyAchievements": false
+    },
+    "emptyAchievements": {
+      "name": "Taylor Swift (No Achievements Yet)",
+      "streak": 3,
+      "currentDay": 4,
+      "completedCount": 3,
+      "missedYesterday": false,
+      "emptyAchievements": true
+    }
+  }
+}
